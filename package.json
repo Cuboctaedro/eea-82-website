@@ -5,13 +5,15 @@
   "dependencies": {
     "@astrojs/markdoc": "^0.5.0",
     "@astrojs/react": "^3.0.0",
+    "@astrojs/tailwind": "^5.0.2",
     "@keystatic/astro": "^2.0.0",
     "@keystatic/core": "^0.2.0",
     "@types/react": "^18.2.8",
     "@types/react-dom": "^18.0.11",
     "astro": "^3.0.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.5"
   },
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",
@@ -19,5 +21,16 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
